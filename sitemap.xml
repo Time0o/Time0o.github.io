@@ -10,6 +10,8 @@
   </url><url>
     <loc>/project/z80-verilog/</loc>
   </url><url>
+    <loc>/project/focusfusion/</loc>
+  </url><url>
     <loc>/project/l4re-pong/</loc>
   </url><url>
     <loc>/project/diceprob/</loc>
@@ -24,13 +26,31 @@
   </url><url>
     <loc>/project/linux-progs/</loc>
   </url><url>
+    <loc>/project/digital-design/</loc>
+  </url><url>
+    <loc>/project/analog-design/</loc>
+  </url><url>
+    <loc>/privacy/</loc>
+    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
+  </url><url>
+    <loc>/terms/</loc>
+    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
+  </url><url>
     <loc>/admin/</loc>
   </url><url>
+    <loc>/tag/c/</loc>
+  </url><url>
     <loc>/categories/</loc>
+  </url><url>
+    <loc>/tag/hardware/</loc>
+  </url><url>
+    <loc>/tag/other/</loc>
   </url><url>
     <loc>/project/</loc>
   </url><url>
     <loc>/publication_types/</loc>
+  </url><url>
+    <loc>/tag/python/</loc>
   </url><url>
     <loc>/tags/</loc>
   </url><url>

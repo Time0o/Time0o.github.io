@@ -45,6 +45,14 @@
     </item>
     
     <item>
+      <title>Focusfusion</title>
+      <link>/project/focusfusion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/project/focusfusion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Pong for L4Re</title>
       <link>/project/l4re-pong/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -97,6 +105,22 @@
       <link>/project/linux-progs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/project/linux-progs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LUP Decomposition in Hardware</title>
+      <link>/project/digital-design/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/project/digital-design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Analog OTA Design</title>
+      <link>/project/analog-design/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/project/analog-design/</guid>
       <description></description>
     </item>
     
