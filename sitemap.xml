@@ -4,6 +4,10 @@
   
   
   <url>
+    <loc>/project/fire-llvm/</loc></url>
+  <url>
+    <loc>/project/mapreducepp/</loc></url>
+  <url>
     <loc>/project/mpsym/</loc></url>
   <url>
     <loc>/project/colorization/</loc></url>
@@ -76,9 +80,15 @@
   <url>
     <loc>/tag/c/</loc></url>
   <url>
+    <loc>/tag/compiler/</loc></url>
+  <url>
+    <loc>/tag/distributed/</loc></url>
+  <url>
     <loc>/tag/hardware/</loc></url>
   <url>
-    <loc>/tag/other/</loc></url>
+    <loc>/tag/ml/</loc></url>
+  <url>
+    <loc>/tag/os/</loc></url>
   <url>
     <loc>/project/</loc></url>
   <url>

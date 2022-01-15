@@ -13,6 +13,22 @@
     </image>
     
     <item>
+      <title>fire-llvm</title>
+      <link>/project/fire-llvm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/project/fire-llvm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MapReduce&#43;&#43;</title>
+      <link>/project/mapreducepp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/project/mapreducepp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>mpsym</title>
       <link>/project/mpsym/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

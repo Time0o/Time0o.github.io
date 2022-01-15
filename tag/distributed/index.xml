@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Distributed | Timo Nicolai</title>
+    <link>/tag/distributed/</link>
+      <atom:link href="/tag/distributed/index.xml" rel="self" type="application/rss+xml" />
+    <description>Distributed</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>/media/icon_hufaa606dc94b44e33d5166ee8ecc852d4_313194_512x512_fill_lanczos_center_3.png</url>
+      <title>Distributed</title>
+      <link>/tag/distributed/</link>
+    </image>
+    
+    <item>
+      <title>MapReduce&#43;&#43;</title>
+      <link>/project/mapreducepp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/project/mapreducepp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mpsym</title>
+      <link>/project/mpsym/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/project/mpsym/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Parallel K-Means Clustering</title>
+      <link>/project/parallel-kmeans/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/project/parallel-kmeans/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

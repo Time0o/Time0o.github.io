@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OS | Timo Nicolai</title>
+    <link>/tag/os/</link>
+      <atom:link href="/tag/os/index.xml" rel="self" type="application/rss+xml" />
+    <description>OS</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>/media/icon_hufaa606dc94b44e33d5166ee8ecc852d4_313194_512x512_fill_lanczos_center_3.png</url>
+      <title>OS</title>
+      <link>/tag/os/</link>
+    </image>
+    
+    <item>
+      <title>Pong for L4Re</title>
+      <link>/project/l4re-pong/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/project/l4re-pong/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hello Kernel</title>
+      <link>/project/hello-kernel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/project/hello-kernel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux API Programs</title>
+      <link>/project/linux-progs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/project/linux-progs/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

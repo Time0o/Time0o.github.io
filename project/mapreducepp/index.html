@@ -60,10 +60,10 @@
   
     
   
-  <meta name="description" content="An extensible program for automatically generating language bindings to C&#43;&#43;. Similar to SWIG but with a much smaller codebase due to the use of the Clang AST API as a frontend. Currently supports C and Lua and additional backends can be implemented dynamically with Python." />
+  <meta name="description" content="An implemention of the MapReduce programming model written in C&#43;&#43; and based on gRPC. Consists of a single master program that delegates tasks to a number of workers in highly parallel and fault tolerant manner. Based on the [MapReduce paper](https://static.googleusercontent.com/media/research.google.com/de//archive/mapreduce-osdi04.pdf)." />
 
   
-  <link rel="alternate" hreflang="en-us" href="/project/cppbind/" />
+  <link rel="alternate" hreflang="en-us" href="/project/mapreducepp/" />
 
   
   
@@ -276,7 +276,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hufaa606dc94b44e33d5166ee8ecc852d4_313194_32x32_fill_lanczos_center_3.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hufaa606dc94b44e33d5166ee8ecc852d4_313194_180x180_fill_lanczos_center_3.png" />
 
-  <link rel="canonical" href="/project/cppbind/" />
+  <link rel="canonical" href="/project/mapreducepp/" />
 
   
   
@@ -298,10 +298,10 @@
   <meta property="twitter:card" content="summary_large_image" />
   
   <meta property="og:site_name" content="Timo Nicolai" />
-  <meta property="og:url" content="/project/cppbind/" />
-  <meta property="og:title" content="CPPBind | Timo Nicolai" />
-  <meta property="og:description" content="An extensible program for automatically generating language bindings to C&#43;&#43;. Similar to SWIG but with a much smaller codebase due to the use of the Clang AST API as a frontend. Currently supports C and Lua and additional backends can be implemented dynamically with Python." /><meta property="og:image" content="/project/cppbind/featured.png" />
-    <meta property="twitter:image" content="/project/cppbind/featured.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:url" content="/project/mapreducepp/" />
+  <meta property="og:title" content="MapReduce&#43;&#43; | Timo Nicolai" />
+  <meta property="og:description" content="An implemention of the MapReduce programming model written in C&#43;&#43; and based on gRPC. Consists of a single master program that delegates tasks to a number of workers in highly parallel and fault tolerant manner. Based on the [MapReduce paper](https://static.googleusercontent.com/media/research.google.com/de//archive/mapreduce-osdi04.pdf)." /><meta property="og:image" content="/project/mapreducepp/featured.png" />
+    <meta property="twitter:image" content="/project/mapreducepp/featured.png" /><meta property="og:locale" content="en-us" />
   
     
     
@@ -326,12 +326,12 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "/project/cppbind/"
+    "@id": "/project/mapreducepp/"
   },
-  "headline": "CPPBind",
+  "headline": "MapReduce++",
   
   "image": [
-    "/project/cppbind/featured.png"
+    "/project/mapreducepp/featured.png"
   ],
   
   "datePublished": "0001-01-01T00:00:00Z",
@@ -350,7 +350,7 @@
       "url": "/media/icon_hufaa606dc94b44e33d5166ee8ecc852d4_313194_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "An extensible program for automatically generating language bindings to C++. Similar to SWIG but with a much smaller codebase due to the use of the Clang AST API as a frontend. Currently supports C and Lua and additional backends can be implemented dynamically with Python."
+  "description": "An implemention of the MapReduce programming model written in C++ and based on gRPC. Consists of a single master program that delegates tasks to a number of workers in highly parallel and fault tolerant manner. Based on the [MapReduce paper](https://static.googleusercontent.com/media/research.google.com/de//archive/mapreduce-osdi04.pdf)."
 }
 </script>
 
@@ -366,11 +366,11 @@
 
 
 
-  <title>CPPBind | Timo Nicolai</title>
+  <title>MapReduce&#43;&#43; | Timo Nicolai</title>
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="93434e240dee2b4242ed5d8ef7d5774f" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="cb22399bb65c09189b2ebad1c5333325" >
 
   
   
@@ -773,7 +773,7 @@
 
 
 <div class="article-container pt-3">
-  <h1>CPPBind</h1>
+  <h1>MapReduce&#43;&#43;</h1>
 
   
 
@@ -818,7 +818,7 @@
 
 <div class="btn-links mb-3">
   
-  <a class="btn btn-outline-primary my-1" href="https://github.com/Time0o/CPPBind" target="_blank" rel="noopener">Go to Project Site</a>
+  <a class="btn btn-outline-primary my-1" href="https://github.com/Time0o/MapReducePlusPlus" target="_blank" rel="noopener">Go to Project Site</a>
   
   
 
@@ -831,7 +831,7 @@
   
     
   
-<a class="btn btn-outline-primary btn-page-header" href="/files/CPPBind-master.zip" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="/files/MapReducePlusPlus-master.zip" target="_blank" rel="noopener">
   Code
 </a>
 
@@ -857,22 +857,22 @@
 
 
 
-  
 
 
 
 
 
-
-</div>
 
 
 </div>
 
 
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 400px; max-height: 400px;">
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 715px; max-height: 368px;">
   <div style="position: relative">
-    <img src="/project/cppbind/featured.png" width="400" height="400" alt="" class="featured-image">
+    <img src="/project/mapreducepp/featured.png" width="715" height="368" alt="" class="featured-image">
     
   </div>
 </div>
@@ -894,7 +894,7 @@
   
   <a class="badge badge-light" href="/tag/c/">C</a>
   
-  <a class="badge badge-light" href="/tag/compiler/">Compiler</a>
+  <a class="badge badge-light" href="/tag/distributed/">Distributed</a>
   
 </div>
 
@@ -911,7 +911,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/project/cppbind/&amp;text=CPPBind" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+        <a href="https://twitter.com/intent/tweet?url=/project/mapreducepp/&amp;text=MapReduce&#43;&#43;" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -924,7 +924,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/project/cppbind/&amp;t=CPPBind" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/project/mapreducepp/&amp;t=MapReduce&#43;&#43;" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -937,7 +937,7 @@
       
       
       <li>
-        <a href="mailto:?subject=CPPBind&amp;body=/project/cppbind/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=MapReduce&#43;&#43;&amp;body=/project/mapreducepp/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -950,7 +950,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/project/cppbind/&amp;title=CPPBind" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=/project/mapreducepp/&amp;title=MapReduce&#43;&#43;" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -963,7 +963,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=CPPBind%20/project/cppbind/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+        <a href="whatsapp://send?text=MapReduce&#43;&#43;%20/project/mapreducepp/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -976,7 +976,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/project/cppbind/&amp;title=CPPBind" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/project/mapreducepp/&amp;title=MapReduce&#43;&#43;" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1126,15 +1126,15 @@
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/project/fire-llvm/">fire-llvm</a></li>
+      <li><a href="/project/parallel-kmeans/">Parallel K-Means Clustering</a></li>
+      
+      <li><a href="/project/mpsym/">mpsym</a></li>
+      
+      <li><a href="/project/cppbind/">CPPBind</a></li>
       
       <li><a href="/project/xtensa-fft/">Cooley-Tukey FFT on the Xtensa Architecture</a></li>
       
-      <li><a href="/project/diceprob/">Diceprob</a></li>
-      
       <li><a href="/project/hello-kernel/">Hello Kernel</a></li>
-      
-      <li><a href="/project/iterative-channel-coding/">Iterative Channel Coding</a></li>
       
     </ul>
   </div>
