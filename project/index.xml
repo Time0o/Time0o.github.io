@@ -13,6 +13,14 @@
     </image>
     
     <item>
+      <title>BuenzliCoin</title>
+      <link>/project/buenzlicoin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/project/buenzlicoin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>fire-llvm</title>
       <link>/project/fire-llvm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
